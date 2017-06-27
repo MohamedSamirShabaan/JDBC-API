@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT table (columns,rows)>
+<!ELEMENT columns (column_name1,column_name2,column_name3)>
+<!ELEMENT row (column_name1,column_name2,column_name3)>
+<!ELEMENT rows (row*)>
+<!ELEMENT column_name1 (#PCDATA)>
+<!ELEMENT column_name2 (#PCDATA)>
+<!ELEMENT column_name3 (#PCDATA)>
